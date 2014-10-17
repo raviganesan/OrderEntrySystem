@@ -52,11 +52,10 @@ namespace OrderEntryTest
             dishRules = new DishRules(iOrderEntryRules);
         }
 
-        IOrderEntryRules iOrderEntryRules;// = new OrderEntryRules();
-        IDishRules dishRules;// = new DishRules(iOrderEntryRules);
+        IOrderEntryRules iOrderEntryRules;
+        IDishRules dishRules;
 
         [TestMethod]
-        //[ExpectedException(typeof(ArgumentException))]
         public void SetDesertServingRule()
         {
            bool actual = dishRules.SetDesertServingRule();
