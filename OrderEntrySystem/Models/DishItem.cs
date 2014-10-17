@@ -7,35 +7,14 @@ namespace OrderEntrySystem.Models
 {
     public class DishItem
     {
-
-        public int ItemId
-        {
-            get;
-            set;
-        }
-
-        public string ItemName
-        {
-            get;
-            set;
-        }
-
-        public int TimeOfDayId
-        {
-            get;
-            set;
-        }
-
-        public int DishTypeId
-        {
-            get;
-            set;
-        }
+        public int ItemId { get; set; }
+        public string ItemName { get; set; }
+        public int TimeOfDayId { get; set; }
+        public int DishTypeId { get; set; }
     }
 
     public class DishList
     {
-
         public DishList()
         {
             List<DishItem> dishItemList = new List<DishItem>();

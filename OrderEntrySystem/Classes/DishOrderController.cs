@@ -45,7 +45,6 @@ namespace OrderEntrySystem.Classes
         public bool VerifyMultipleServingForTimeOfDay(int dishTypeId, int timeOfDayId, int itemId)
         {
             return _dishRules.VerifyMultipleServing(dishTypeId, timeOfDayId, itemId);
-
         }
 
     }
