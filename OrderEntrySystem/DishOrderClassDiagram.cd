@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OrderEntrySystem.Models.TimeOfDay">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Models\TimeOfDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderEntrySystem.Models.DishType">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\DishType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderEntrySystem.Models.DishItem">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAgAA=</HashCode>
+      <FileName>Models\DishItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderEntrySystem.DishRules">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAGAAAABAAAAAAAAAQAAAAAGAAAAAAAA=</HashCode>
+      <FileName>RulesEngine\DishRules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OrderEntrySystem.Models.DishList">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAA=</HashCode>
+      <FileName>Models\DishItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OrderEntrySystem.IDishRules">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAACAAAABAAAAAAAAAQAAAAAGAAAAAAAA=</HashCode>
+      <FileName>RulesEngine\IDishRules.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
