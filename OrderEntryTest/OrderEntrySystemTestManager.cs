@@ -14,7 +14,6 @@ namespace OrderEntryTest
         public void ValidateTimeOfDay()
         {
             bool actual = iUserInputValidationManager.ValidateTimeOfDay("morning");
-            
             Assert.IsTrue(actual);
         }
 
@@ -31,7 +30,6 @@ namespace OrderEntryTest
         public void ValidateDishSelection()
         {
             bool actual = iUserInputValidationManager.ValidateDishSelection("morning, 1");
-
             Assert.IsTrue(actual);
         }
 
@@ -94,7 +92,5 @@ namespace OrderEntryTest
             bool actual = dishRules.VerifyDesertServing(1, 2);//int dishTypeId, int timeOfDayId
             Assert.IsTrue(actual);
         }
-             
-
     }
 }

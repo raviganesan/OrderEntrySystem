@@ -28,14 +28,13 @@ namespace OrderEntrySystem
                 IDishRules dishRules = new DishRules(iOrderEntryRules);
                 DishOrderController dishOrderController = new DishOrderController(dishRules);
                 UserInputValidationManager userInputValidationManager = new UserInputValidationManager();
+                List<DishType> dishTypeList = dishOrderController.DishTypeList();
                 do
                 {
                     try
                     {
                         Console.Write("\n\nInput:");
                         string inputFeed = Console.ReadLine();
-
-                        List<DishType> dishTypeList = dishOrderController.DishTypeList();
 
                         //parser 
                         string[] inputArray = inputFeed.Trim().Split(',');
