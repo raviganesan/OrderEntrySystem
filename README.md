@@ -5,7 +5,8 @@ This is for Grosvenor
 
 
 
-Rules:
+Below are the rules, which are used to test and execute the application:
+
 1.	You must enter time of day as “morning” or “night” 
 2.	You must enter a comma delimited list of dish types with at least one selection
 3.	The output must print food in the following order: entrée, side, drink, dessert
