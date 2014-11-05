@@ -1,10 +1,6 @@
 OrderEntrySystem
 ================
 
-This is for Grosvenor
-
-
-
 Below are the rules, which are used to test and execute the application:
 
 1.	You must enter time of day as “morning” or “night” 
